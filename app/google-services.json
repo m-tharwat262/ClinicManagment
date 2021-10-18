@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "242077618273",
+    "firebase_url": "https://clinic-management-elnour-default-rtdb.firebaseio.com",
+    "project_id": "clinic-management-elnour",
+    "storage_bucket": "clinic-management-elnour.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242077618273:android:52c3e77412d0a495181a20",
+        "android_client_info": {
+          "package_name": "com.clinic.management.elnour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242077618273-bk9drou6vo54ududi1dgd5vl12r4vob4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.clinic.management.elnour",
+            "certificate_hash": "9051f1f99fa16f1a3b33a7df485e3b67b50b6f60"
+          }
+        },
+        {
+          "client_id": "242077618273-htapnmlcl71h393s026f96737attni0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6j8GTZkhKL-edFFQii46Wewyhc8wXmpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242077618273-htapnmlcl71h393s026f96737attni0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

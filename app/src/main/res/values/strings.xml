@@ -1,3 +1,86 @@
 <resources>
-    <string name="app_name">Clinic Managment</string>
+    <string name="app_name">Clinic Management</string>
+
+    //////////////////////////////// preference keys //////////////////////////
+    <string name="user_id_Key">firebase_user_id</string>
+    <string name="real_name_Key">real_name</string>
+    <string name="user_name_Key">user_name</string>
+    <string name="email_address_Key">email_address</string>
+    <string name="phone_number_Key">phone_number</string>
+    <string name="user_join_unix_time_key">join_unix_time</string>
+    <string name="verified_number_Key">verified_number</string>
+    <string name="account_disable_Key">account_enable</string>
+    <string name="account_admin_Key">account_admin</string>
+    <string name="preference_string_empty_value">empty_value</string>
+
+
+    ///////////////////////// navigation drawer ////////////////////////////
+    <string name="join_date">join date : %1$s</string>
+
+
+    /////////////////////////// main Activity ///////////////////////////
+    <string name="disabled_account">Disabled</string>
+    <string name="disabled_account_email">\n your account disabled</string>
+    <string name="contact_support_to_enable_your_account_again">Contact (Clinic Management) Support to Enable your account again</string>
+    <string name="close_button">Close</string>
+    <string name="contact_support_button">Contact</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="sign_out_successfully">Sign out successfully !</string>
+
+
+    /////////////////// Login - sign up - forget password activities ///////////////////////
+    <string name="log_in_statement">Login</string>
+    <string name="ask_have_not_account_statement">Don\'t have account ?</string>
+    <string name="ask_forget_password_statement"><u>Forget password ?</u></string>
+    <string name="ask_have_account_statement">Has account Already ?</string>
+    <string name="create_account_statement">Create a New Account</string>
+    <string name="signing_up">Signing Up</string>
+    <string name="or_statement">OR</string>
+    <string name="thank_you_statement">Thank you</string>
+    <string name="reset_your_password">Reset Password</string>
+    <string name="change_password_statement">A password reset link has been sent to your email, please check it.</string>
+    <string name="successfully_created_account">Created Successfully !</string>
+    <string name="create_new_account">Create a new account…</string>
+
+
+    <string name="user_name_already_exist">user name already exist</string>
+    <string name="email_address_already_exist">email address already exist</string>
+    <string name="phone_number_already_exist">phone number already exist</string>
+    <string name="user_name_must_contains_character">username must contains characters</string>
+    <string name="new_password_field">new password</string>
+    <string name="confirm_new_password_field">confirm new password</string>
+
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_valid_email_address">Enter valid email address</string>
+    <string name="enter_user_name">Enter user name</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="password_can_not_be_less_than_8">Can\'t be less than 8 characters</string>
+    <string name="password_not_match">password not match above</string>
+    <string name="enter_valid_phone_number">enter valid phone number</string>
+
+    <string name="log_in_button">login</string>
+    <string name="log_in_button_with_line"><u>login</u></string>
+    <string name="create_account_button">Sign Up</string>
+    <string name="create_account_button_with_line"><u>Sign Up</u></string>
+    <string name="change_password_button">RESET</string>
+    <string name="ok_button">OK</string>
+
+    <string name="name_field">real name</string>
+    <string name="e_mail_field">email address</string>
+    <string name="user_name_field">email-phone-username</string>
+    <string name="password_field">password</string>
+    <string name="confirm_password_field">confirm password</string>
+    <string name="phone_number_field">phone number</string>
+    <string name="email_and_phone_number_field">email - phone number</string>
+
+
+    //////////////////////////// splash screen ///////////////////////////
+    <string name="by_mtma">MTMA</string>
+    <string name="your_verification_code">your verification code</string>
+    <string name="enter_your_verification_code">Enter your verification code</string>
+    <string name="enter_your_new_password">Enter your new password</string>
+    <string name="verification_code_not_correct">Not correct</string>
+
+
 </resources>
