@@ -4,15 +4,24 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
 
     <application
+        android:name=".app.MyFirebaseApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ClinicManagement">
-        <activity android:name=".activities.ResetPasswordByPhoneActivity"></activity>
+        <activity android:name=".activities.display.OthersPaymentsActivity" />
+        <activity android:name=".activities.display.BasicPaymentsActivity" />
+        <activity android:name=".activities.display.WalletActivity" />
+        <activity android:name=".activities.display.DeptActivity" />
+        <activity android:name=".activities.display.SalariesActivity" />
+        <activity android:name=".activities.display.EmployeeDetailsActivity" />
+        <activity android:name=".activities.display.PatientDetailsActivity" />
+        <activity android:name=".activities.display.SessionDetailsActivity" />
         <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +32,7 @@
         <activity android:name=".activities.CreateAccountActivity" />
         <activity android:name=".activities.ForgetPasswordActivity" />
         <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.ResetPasswordByPhoneActivity" />
         <activity android:name=".activities.MainActivity" />
     </application>
 

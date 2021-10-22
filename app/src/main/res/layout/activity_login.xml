@@ -50,7 +50,7 @@
                 <EditText
                     android:id="@+id/activity_login_user_name"
                     style="@style/login_editText"
-                    android:hint="@string/user_name_field"/>
+                    android:hint="@string/email_and_username_and_phone_number_field"/>
 
 
                 <ImageView

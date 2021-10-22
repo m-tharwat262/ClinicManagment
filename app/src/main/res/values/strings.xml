@@ -2,31 +2,20 @@
     <string name="app_name">Clinic Management</string>
 
     //////////////////////////////// preference keys //////////////////////////
-    <string name="user_id_Key">firebase_user_id</string>
-    <string name="real_name_Key">real_name</string>
-    <string name="user_name_Key">user_name</string>
-    <string name="email_address_Key">email_address</string>
-    <string name="phone_number_Key">phone_number</string>
-    <string name="user_join_unix_time_key">join_unix_time</string>
-    <string name="verified_number_Key">verified_number</string>
-    <string name="account_disable_Key">account_enable</string>
-    <string name="account_admin_Key">account_admin</string>
+    <string name="user_id_Key" translatable="false">firebase_user_id</string>
+    <string name="real_name_Key" translatable="false">real_name</string>
+    <string name="user_name_Key" translatable="false">user_name</string>
+    <string name="email_address_Key" translatable="false">email_address</string>
+    <string name="phone_number_Key" translatable="false">phone_number</string>
+    <string name="user_join_unix_time_key" translatable="false">join_unix_time</string>
+    <string name="verified_number_Key" translatable="false">verified_number</string>
+    <string name="account_disable_Key" translatable="false">account_enable</string>
+    <string name="account_admin_Key" translatable="false">account_admin</string>
     <string name="preference_string_empty_value">empty_value</string>
 
 
     ///////////////////////// navigation drawer ////////////////////////////
     <string name="join_date">join date : %1$s</string>
-
-
-    /////////////////////////// main Activity ///////////////////////////
-    <string name="disabled_account">Disabled</string>
-    <string name="disabled_account_email">\n your account disabled</string>
-    <string name="contact_support_to_enable_your_account_again">Contact (Clinic Management) Support to Enable your account again</string>
-    <string name="close_button">Close</string>
-    <string name="contact_support_button">Contact</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="sign_out_successfully">Sign out successfully !</string>
 
 
     /////////////////// Login - sign up - forget password activities ///////////////////////
@@ -58,6 +47,10 @@
     <string name="password_can_not_be_less_than_8">Can\'t be less than 8 characters</string>
     <string name="password_not_match">password not match above</string>
     <string name="enter_valid_phone_number">enter valid phone number</string>
+    <string name="your_verification_code">your verification code</string>
+    <string name="enter_your_verification_code">Enter your verification code</string>
+    <string name="enter_your_new_password">Enter your new password</string>
+    <string name="verification_code_not_correct">Not correct</string>
 
     <string name="log_in_button">login</string>
     <string name="log_in_button_with_line"><u>login</u></string>
@@ -68,19 +61,38 @@
 
     <string name="name_field">real name</string>
     <string name="e_mail_field">email address</string>
-    <string name="user_name_field">email-phone-username</string>
+    <string name="user_name_field">username</string>
     <string name="password_field">password</string>
     <string name="confirm_password_field">confirm password</string>
     <string name="phone_number_field">phone number</string>
+    <string name="email_and_username_and_phone_number_field">email-phone-username</string>
     <string name="email_and_phone_number_field">email - phone number</string>
 
 
     //////////////////////////// splash screen ///////////////////////////
     <string name="by_mtma">MTMA</string>
-    <string name="your_verification_code">your verification code</string>
-    <string name="enter_your_verification_code">Enter your verification code</string>
-    <string name="enter_your_new_password">Enter your new password</string>
-    <string name="verification_code_not_correct">Not correct</string>
+
+
+    /////////////////////////// main Activity ///////////////////////////
+    <string name="disabled_account">Disabled</string>
+    <string name="disabled_account_email">\n your account disabled</string>
+    <string name="contact_support_to_enable_your_account_again">Contact (Clinic Management) Support to Enable your account again</string>
+    <string name="close_button">Close</string>
+    <string name="contact_support_button">Contact</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="sign_out_successfully">Sign out successfully !</string>
+    <string name="bottom_items_home">Home</string>
+    <string name="bottom_items_settings">Settings</string>
+    <string name="bottom_items_patients">Patient</string>
+    <string name="bottom_items_counting">Counting</string>
+    <string name="bottom_items_employee">Employees</string>
+    <string name="click_back_again_to_exit">Click back again to exit</string>
+    <string name="employee_sessions">Sessions(%1$s)</string>
+    <string name="employee_balance">Balance : %1$s$</string>
+    <string name="not_receive_his_salary">Not receive his salary</string>
+    <string name="year_number_key">year_number</string>
+    <string name="month_name_key">month_name</string>
 
 
 </resources>

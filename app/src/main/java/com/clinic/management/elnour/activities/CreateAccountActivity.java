@@ -87,6 +87,11 @@ public class CreateAccountActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
 
+
+        // TODO: verification number variable in server and preference.
+
+
+
         // initialize the main context and shared preference.
         mContext = CreateAccountActivity.this;
         pref = PreferenceManager.getDefaultSharedPreferences(mContext);

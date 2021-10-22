@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/circle_navigation_tasks_shadow" />
+
+    <item>
+
+
+        <shape
+            android:shape="oval">
+
+            <solid
+                android:color="@color/circle_profile_pic_background"/>
+
+            <size
+                android:width="25dp"
+                android:height="25dp"/>
+
+            <gradient
+                android:startColor="@color/gradient_floating_action_button_1"
+                android:endColor="@color/gradient_floating_action_button_2"
+                android:angle="45"/>
+
+        </shape>
+
+
+    </item>
+
+
+</layer-list>
+
+
+
+
+
+
+
+
+

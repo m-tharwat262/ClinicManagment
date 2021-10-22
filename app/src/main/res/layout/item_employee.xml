@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/ripple_employee_item"
+    android:padding="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/circle_profile_pic_background">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/item_employee_profile_pic_image_view"
+                android:layout_width="116dp"
+                android:layout_height="116dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/person_placeholder"
+                app:civ_border_width="4dp"
+                app:civ_border_color="@color/mode_color_white_3" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_employee_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_black"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Dr.Ahmed Tharwat"/>
+
+        <TextView
+            android:id="@+id/item_patient_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_black"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:textStyle="bold"
+            tools:text="Dr.Ahmed Tharwat"/>
+
+        <TextView
+            android:id="@+id/item_employee_sessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_black"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            tools:text="Sessions num(50)"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

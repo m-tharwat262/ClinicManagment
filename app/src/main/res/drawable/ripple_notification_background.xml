@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#8098A4F8">
+
+    <item>
+
+        <shape
+            android:shape="oval">
+
+            <solid
+
+                android:color="@android:color/transparent" />
+
+
+            <size
+                android:width="25dp"
+                android:height="25dp" />
+
+
+
+        </shape>
+    </item>
+
+    <!-- Make sure the ripple doesn't exceed the bounds -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="oval">
+            <solid android:color="@color/mode_color_white" />
+
+        </shape>
+
+    </item>
+
+</ripple>

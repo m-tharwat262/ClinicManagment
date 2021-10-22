@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:id="@+id/activity_employee_details_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="24dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:layout_margin="8dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:orientation="vertical"
+                android:gravity="center" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/bottom_items_employee"
+                    android:textColor="@color/color_white"
+                    android:textSize="20sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp"
+                    app:cardCornerRadius="2dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@color/color_white">
+
+
+                    <View
+                        android:layout_width="88dp"
+                        android:layout_height="3dp"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_employee_basic_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_employee_details_title"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/activity_employee_basic_info_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="name"/>
+
+        <TextView
+            android:id="@+id/activity_employee_basic_info_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="job"/>
+
+        <TextView
+            android:id="@+id/activity_employee_basic_info_session_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="session cost"/>
+
+        <TextView
+            android:id="@+id/activity_employee_basic_info_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="phone number"/>
+
+        <TextView
+            android:id="@+id/activity_employee_basic_info_all_session_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="sessions number"/>
+
+        <TextView
+            android:id="@+id/activity_employee_basic_info_added_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="added time"/>
+
+        <TextView
+            android:id="@+id/activity_employee_basic_info_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="balance"/>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/activity_employee_first_vertical_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/text_color_gray"
+        android:layout_below="@id/activity_employee_basic_info"/>
+
+    <LinearLayout
+        android:id="@+id/activity_employee_last_month_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_employee_first_vertical_line"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/activity_employee_sessions_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="sessions number"/>
+
+        <TextView
+            android:id="@+id/activity_employee_cost_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="cost change"/>
+
+        <TextView
+            android:id="@+id/activity_employee_old_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="old cost"/>
+
+        <TextView
+            android:id="@+id/activity_employee_change_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="change date"/>
+
+        <TextView
+            android:id="@+id/activity_employee_before_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="before change"/>
+
+        <TextView
+            android:id="@+id/activity_employee_after_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="after change"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

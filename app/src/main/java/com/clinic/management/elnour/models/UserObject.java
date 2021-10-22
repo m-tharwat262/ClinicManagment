@@ -7,7 +7,7 @@ public class UserObject {
     private String userEmail;
     private String userPhone;
     private String unixTime;
-    private boolean hasVerifiedNumber;
+    private boolean isVerifiedNumber;
     private boolean isDisable;
     private boolean isAdmin;
 
@@ -17,14 +17,14 @@ public class UserObject {
     }
 
     public UserObject (String userRealName, String userName, String userEmail, String userPhone,
-                       String unixTime, boolean hasVerifiedNumber, boolean isDisable, boolean isAdmin) {
+                       String unixTime, boolean isVerifiedNumber, boolean isDisable, boolean isAdmin) {
 
         this.userRealName = userRealName;
         this.userName = userName;
         this.userEmail = userEmail;
         this.userPhone = userPhone;
         this.unixTime = unixTime;
-        this.hasVerifiedNumber = hasVerifiedNumber;
+        this.isVerifiedNumber = isVerifiedNumber;
         this.isDisable = isDisable;
         this.isAdmin = isAdmin;
 
@@ -70,12 +70,12 @@ public class UserObject {
         this.unixTime = unixTime;
     }
 
-    public boolean isHasVerifiedNumber() {
-        return hasVerifiedNumber;
+    public boolean isVerifiedNumber() {
+        return isVerifiedNumber;
     }
 
-    public void setHasVerifiedNumber(boolean hasVerifiedNumber) {
-        this.hasVerifiedNumber = hasVerifiedNumber;
+    public void setVerifiedNumber(boolean hasVerifiedNumber) {
+        this.isVerifiedNumber = hasVerifiedNumber;
     }
 
     public boolean isDisable() {

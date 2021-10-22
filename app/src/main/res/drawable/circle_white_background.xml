@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/circle_white_background_shadow" />
+
+    <item>
+
+
+        <shape
+            android:shape="oval">
+
+            <solid
+                android:color="@color/mode_color_white"/>
+
+            <size
+                android:width="25dp"
+                android:height="25dp"/>
+
+        </shape>
+
+
+    </item>
+
+
+</layer-list>
+
+
+
+
+
+
+
+

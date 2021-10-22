@@ -24,8 +24,11 @@
 
 
             <androidx.cardview.widget.CardView
-                style="@style/cardView_for_navigation_item"
+                android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="center"
+                android:background="@android:drawable/dialog_holo_light_frame"
                 app:cardCornerRadius="25dp"
                 app:cardBackgroundColor="@color/mode_color_white"
                 app:cardPreventCornerOverlap="true"
